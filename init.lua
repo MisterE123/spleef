@@ -6,7 +6,7 @@ minetest.register_node("spleef:spleef_normal", {
     is_ground_content = false,
     sunlight_propagates = true,
     sounds = default.node_sound_glass_defaults(),
-    groups = {cracky=5},
+    groups = {cracky=1},
     mesecons = {
       conductor = {
 		    state = mesecon.state.off,
@@ -27,7 +27,7 @@ minetest.register_node("spleef:spleef_fire", {
     is_ground_content = false,
     sunlight_propagates = true,
     sounds = default.node_sound_glass_defaults(),
-    groups = {not_in_creative_inventory=1},
+    groups = {cracky = 1, not_in_creative_inventory=1},
     drop = "spleef:spleef_normal",
     mesecons = {
       conductor = {
@@ -76,7 +76,7 @@ minetest.register_node("spleef:spleef_flashing", {
 			length = .5,
 		}
 	}},
-  groups = {not_in_creative_inventory=1},
+  groups = {cracky = 1, not_in_creative_inventory=1},
   drop = "spleef:spleef_normal",
 
 })
