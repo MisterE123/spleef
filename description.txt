@@ -1,0 +1,1 @@
+Adds a spleef subgame to minetest much like "Don't Break the Ice", where players try to be the last man standing on a platform of blocks that can be made to disappear by punching them. This version includes fire spleef cubes, that spawn fire on them. this mod works with mesecons to reset any gameboard.
